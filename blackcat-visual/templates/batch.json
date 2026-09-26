@@ -1,0 +1,32 @@
+{
+  "id": "my-batch",
+  "characters": [
+    {"id": "character-a", "document": "characters/a/角色生图.md", "mode": "production"},
+    {"id": "character-b", "document": "characters/b/角色生图.md", "mode": "production"}
+  ],
+  "common": {"request": "同一天下午的咖啡馆日常", "style_override": "自然摄影，保留皮肤细节"},
+  "image_specs": {
+    "common": {
+      "purpose": "同场景单人和同框图", "aspect": "2:3", "pixels": "native",
+      "quality": "请选择 preview/standard/fine", "format": "native", "background": "scene",
+      "framing": "单人按本次画面要求，保证脸部可辨", "safe_area": "保留需要完整展示的头脚和饰物",
+      "identity_control": "off", "extra_parameters": {}
+    },
+    "overrides": {"together-01": {"aspect": "16:9", "framing": "横向中景，脸均可辨"}},
+    "confirmation": {"scope": "batch", "quality_confirmed": false, "statement": ""}
+  },
+  "scene": "scenes/cafe/scene.json",
+  "items": [
+    {"id": "a-01", "cast": [{"character": "character-a"}], "request": "坐在窗边读书"},
+    {"id": "b-01", "cast": [{"character": "character-b", "outfit_override": "蓝色衬衫"}], "request": "站在中央桌旁看书"},
+    {
+      "id": "together-01",
+      "request": "两人自然交流，没有其他人物",
+      "shot": {"camera": "南侧看向北窗", "framing": "横向中景，脸均清晰可辨"},
+      "cast": [
+        {"character": "character-a", "position": "画面左侧，中央桌西端", "action": "坐着向另一人展示书页", "visibility": "轻三分之四脸，双手可见", "required_anchors": [], "reference_ids": [], "coverage": []},
+        {"character": "character-b", "position": "画面右侧，中央桌东端", "action": "站立俯看书页", "visibility": "清晰三分之四脸，左手可见", "required_anchors": [], "reference_ids": [], "coverage": [], "outfit_override": "蓝色衬衫"}
+      ]
+    }
+  ]
+}

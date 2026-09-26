@@ -1,0 +1,10 @@
+{
+  "quality_requires_confirmation": true,
+  "presets": [
+    {"id":"single","name":"日常单人图","aspect":"2:3","pixels":"native","format":"native","background":"scene","framing":"按本次场景选择全身或半身，保证脸部可辨","safe_area":"全身图不切头脚；半身图避开关节生硬截断"},
+    {"id":"group","name":"5–8 人同框","aspect":"16:9","pixels":"native","format":"native","background":"scene","framing":"分层中景或全景，各人脸部仍可辨，保持站位关系","safe_area":"最边缘人物和必要道具完整；不以极远景凑人数"},
+    {"id":"sheet","name":"角色视图板","aspect":"3:2","pixels":"native","format":"native","background":"solid","framing":"均匀排列本次指定视角，每格同一角色、相近比例","safe_area":"每格留间隔，不切断全身，不让格间人物粘连"},
+    {"id":"avatar","name":"头像或身份近照","aspect":"1:1","pixels":"native","format":"native","background":"solid","framing":"头肩近景，面部清晰，按用途留圆形裁切空间","safe_area":"发顶与脸周留边，不切关键饰物"},
+    {"id":"vertical","name":"竖屏封面","aspect":"9:16","pixels":"native","format":"native","background":"scene","framing":"竖向主体，文字位置只留白，不自动添加文案","safe_area":"按发布用途避开边缘和遮挡区，不假定固定平台安全区"}
+  ]
+}

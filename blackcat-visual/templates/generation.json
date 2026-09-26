@@ -1,0 +1,12 @@
+{
+  "tool": "",
+  "actual_submitted_prompt": "",
+  "reference_delivery": {
+    "verified": false,
+    "evidence": ""
+  },
+  "visible_parameters": "未暴露",
+  "request_count": 1,
+  "success_count": 1,
+  "rewritten_prompt": "不可获取"
+}

@@ -1,0 +1,20 @@
+{
+  "common": {
+    "purpose": "日常单人图",
+    "aspect": "2:3",
+    "pixels": "native",
+    "quality": "请选择 preview/standard/fine",
+    "format": "native",
+    "background": "scene",
+    "framing": "按本次画面要求，脸部有足够辨识空间",
+    "safe_area": "不切断头顶、手脚及需要完整展示的饰物；按景别调整",
+    "identity_control": "off",
+    "extra_parameters": {}
+  },
+  "overrides": {},
+  "confirmation": {
+    "scope": "single",
+    "quality_confirmed": false,
+    "statement": ""
+  }
+}

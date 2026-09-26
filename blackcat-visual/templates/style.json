@@ -1,0 +1,28 @@
+{
+  "id": "",
+  "name": "",
+  "aliases": [],
+  "type": "",
+  "realism": "",
+  "linework": "",
+  "coloring": "",
+  "lighting": "",
+  "palette": "",
+  "materials": "",
+  "detail_density": "",
+  "preserve_textures": "",
+  "avoid": "",
+  "default_aspect": "",
+  "default_size": "",
+  "references": [
+    {
+      "id": "reference-01",
+      "path": "",
+      "role": "style",
+      "allowed": "",
+      "forbidden": "",
+      "coverage": [],
+      "visually_checked": false
+    }
+  ]
+}

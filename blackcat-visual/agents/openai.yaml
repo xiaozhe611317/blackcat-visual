@@ -1,0 +1,6 @@
+interface:
+  display_name: "BlackCat 固定角色工坊"
+  short_description: "创建固定角色，按角色文档批量生图，在固定场景中完成多人同框与集中审核。"
+  default_prompt: "使用 $blackcat-visual，按当前环境默认生图能力，帮我创建固定角色或编排角色批量与同场景多人同框任务。"
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,8 @@
+{
+  "tool": "填写本次真实工具名称",
+  "evidence": "填写实际接口说明来源及核对日期；空白映射不代表支持",
+  "parameters": {},
+  "mappings": {},
+  "references": {"supported": null, "max_images": null},
+  "identity_binding": {"mode": "unknown"}
+}

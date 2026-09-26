@@ -1,0 +1,18 @@
+{
+  "global": {
+    "identity": {"status": "无法判断", "note": "尚未实际检查"},
+    "anchors": {"status": "无法判断", "note": "尚未实际检查"},
+    "style": {"status": "无法判断", "note": "尚未实际检查"},
+    "anatomy": {"status": "无法判断", "note": "尚未实际检查"},
+    "request": {"status": "无法判断", "note": "尚未实际检查"},
+    "textures": {"status": "无法判断", "note": "尚未实际检查"}
+  },
+  "characters": {
+    "replace-with-character-id": {
+      "identity": {"status": "无法判断", "note": "对照本人的母版，看脸、轮廓和年龄感"},
+      "anchors": {"status": "无法判断", "note": "检查可见锚点；必见锚点不能以遮挡豁免"},
+      "placement": {"status": "无法判断", "note": "检查该人的位置、动作、服装和互动归属"}
+    }
+  },
+  "continuity": {"status": "无法判断", "note": "对照场景及相邻镜头；未使用固定场景时注明不适用"}
+}

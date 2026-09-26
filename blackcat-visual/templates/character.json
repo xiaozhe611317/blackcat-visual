@@ -1,0 +1,30 @@
+{
+  "id": "",
+  "name": "",
+  "aliases": [],
+  "age_impression": "",
+  "face_structure": "",
+  "hair": "",
+  "body_proportions": "",
+  "identity_constraints": "",
+  "allowed_changes": "",
+  "baseline_medium": "",
+  "primary_reference": "reference-01",
+  "anchors": {
+    "mode": null,
+    "description": "",
+    "placement": "",
+    "occlusion_rules": ""
+  },
+  "references": [
+    {
+      "id": "reference-01",
+      "path": "",
+      "role": "identity",
+      "allowed": "",
+      "forbidden": "",
+      "coverage": [],
+      "visually_checked": false
+    }
+  ]
+}
