@@ -173,6 +173,20 @@ def test_package_is_clean_allowlist(tmp_path):
         assert not any(x.endswith(('.png', '.jpg', '.pyc')) or '/.runtime/' in x or '/tests/' in x for x in names)
         assert not any('/vendor/' in x or x.endswith('ripple.py') for x in names)
         assert len(names) == len(result['files'])
+        assert archive.read('blackcat-visual/LICENSE') == (PROJECT / 'LICENSE').read_bytes()
+
+
+def test_package_rejects_divergent_authorization_notices(tmp_path, monkeypatch):
+    skill = tmp_path / 'blackcat-visual'
+    skill.mkdir()
+    (tmp_path / 'LICENSE').write_text('Repository notice', encoding='utf-8')
+    (skill / 'LICENSE').write_text('Different packaged notice', encoding='utf-8')
+    monkeypatch.setattr(package_skill, 'ROOT', tmp_path)
+    monkeypatch.setattr(package_skill, 'SKILL', skill)
+    destination = tmp_path / 'dist' / 'blackcat.zip'
+    with pytest.raises(ValueError, match='authorization notices must match'):
+        package_skill.package(destination)
+    assert not destination.exists()
 
 
 def archived_run(root, source):

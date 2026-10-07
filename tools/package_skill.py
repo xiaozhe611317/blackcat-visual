@@ -8,7 +8,7 @@ import zipfile
 ROOT = Path(__file__).resolve().parents[1]
 SKILL = ROOT / 'blackcat-visual'
 FRAMEWORK_FILES = [
-    'SKILL.md', 'agents/openai.yaml',
+    'LICENSE', 'SKILL.md', 'agents/openai.yaml',
     'references/onboarding.md', 'references/production.md', 'references/storage.md', 'references/questionnaire.md',
     'templates/character.json', 'templates/style.json', 'templates/generation.json', 'templates/checks.json',
     'scripts/bc_store.py', 'scripts/bc_runs.py', 'scripts/blackcat.py',
@@ -23,6 +23,8 @@ FRAMEWORK_FILES = [
 def package(output):
     output = Path(output).resolve()
     files = FRAMEWORK_FILES
+    if (ROOT / 'LICENSE').read_bytes() != (SKILL / 'LICENSE').read_bytes():
+        raise ValueError('Repository and packaged authorization notices must match')
     output.parent.mkdir(parents=True, exist_ok=True)
     manifest = {}
     with zipfile.ZipFile(output, 'w', zipfile.ZIP_DEFLATED) as archive:

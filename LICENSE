@@ -1,0 +1,52 @@
+# BlackCat Visual — 权利保留与商业授权声明
+
+Copyright © 2026 xiaozhe611317. All rights reserved.
+声明生效日期 / Notice effective date: 2026-10-07
+
+## 中文条款（解释以中文为准）
+
+### 1. 权利归属与适用范围
+
+BlackCat 黑猫视觉为个人项目。本声明适用于本项目中依法由权利人享有著作权的原创文字、Skill 规则与提示词表达、文档、模板及脚本，包括其受保护部分的修改版本。本项目不以 MIT、Apache、GPL 或其他开源许可证授权；公开源码不表示放弃权利、转让所有权或提供无限制使用许可。
+
+第三方依赖、模型、工具、用户提供的素材及另有权利声明的内容，仍按各自条款处理。本声明不主张对抽象思想、通用方法、法定不受保护的内容或他人独立创作享有专有权。
+
+### 2. 未经事先书面授权，禁止商业应用
+
+除适用法律允许的使用，以及已依法取得且仍有效的授权外，任何个人或组织不得未经权利人事先书面授权，将本项目的受保护内容直接或经修改后用于商业目的。包括但不限于：
+
+- 销售、出租、转授权、收费分发本项目或其受保护部分，或将其作为收费课程、资料包、会员内容提供。
+- 将本项目集成至商业产品、收费软件、Agent、插件、SaaS、API、托管服务或商业工作流。
+- 在企业或其他营利组织的业务、生产、营销、客户交付或内部商业工作中使用本项目；未单独收取 Skill 费用不构成豁免。
+- 使用本项目提供收费生图、改图、角色设计、素材制作等服务，或直接用于商业广告、付费订单及其他营利性内容生产。
+- 通过改名、翻译、局部改写、包装或移除声明，对本项目受保护内容进行未经授权的商业应用。
+
+“注明作者”“免费提供工具”“未直接出售 Skill”或“只修改一部分”本身不代表取得商业授权。是否落入限制，仍应结合实际使用行为、受保护内容和适用法律判断。
+
+### 3. 公开访问、法定例外与非商业使用
+
+本声明不撤销因公开 GitHub 仓库而已依 GitHub 服务条款授予的权利，包括在其服务内依平台功能浏览与 Fork；也不限制适用法律规定的合理使用或其他法定例外。上述权利不自动扩展为平台外商业应用的许可。
+
+除这些既有权利或另行授权外，本声明不额外授予复制、修改、再分发或其他使用权限。“非商业”本身不等于已获授权。依法或经授权保留、提供本项目副本时，应在适用法律或授权要求的范围内保留本声明及署名。
+
+### 4. 商业授权申请
+
+商业应用必须在实施前获得权利人明确的书面许可，并按其中约定的版本、用途、范围、期限及费用执行。可通过 GitHub 账号 https://github.com/xiaozhe611317 的公开联系渠道询问；公开 Issue 中不要提交个人隐私、客户资料或凭证。
+
+提出申请、获得沉默答复、Star、Fork 或下载，不表示获准商业使用。将来如有授权政策调整，不表示自动追认此前未经授权的行为，也不追溯撤销此前依法取得且仍有效的授权。
+
+### 5. 生成结果、解释与责任边界
+
+本声明限制的是对本项目的授权使用，不因他人使用本项目就自动取得其角色、图片或其他生成结果的所有权；相关结果仍须遵守适用法律、模型条款及素材权利。生成结果归属与是否获准商业使用本项目，是不同问题。
+
+本声明是权利保留和授权政策，不保证任一争议中的权利成立、合同效力、侵权认定或救济结果；最终以实际权利、适用法律和有效约定为准。如个别条款不能依法适用，不因此扩大其他未授予的权限。
+
+## English summary
+
+BlackCat Visual is a personal project. All rights are reserved in original project content to the extent owned and protected by applicable law. This is a source-visible project, not an open-source license.
+
+Unless applicable law permits the use or a valid existing authorization covers it, prior written permission from the rights holder is required for commercial application of protected project content, including modified versions. Covered activities include resale or paid distribution; integration into commercial products, software, agents, plugins, SaaS, APIs or hosted services; internal business use; and paid image generation, editing, character design, customer delivery or commercial content production. Attribution, free access, renaming or partial modification does not by itself grant commercial permission.
+
+Rights already granted under GitHub's Terms of Service, including viewing and forking within the service as permitted by its functionality, and statutory exceptions remain unaffected. This notice grants no additional copying, modification, redistribution or noncommercial-use permissions. Third-party content and dependencies remain subject to their own terms.
+
+Apply through the public contact channels of https://github.com/xiaozhe611317 before commercial use. An application, silence, a star, fork or download is not approval. Existing valid permissions are not retroactively revoked. This notice does not claim ownership of users' generated images, characters or other outputs, nor exclusive rights in abstract ideas, methods or independently created works. Legal effect depends on applicable law and actual rights. The Chinese text governs interpretation.
